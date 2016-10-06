@@ -9,9 +9,9 @@ import java.util.Random;
  */
 
 public class CitySim9002 {  
-        static int iteration = 5;
-        static RandomNumber generator;
-	
+    static int iteration = 5;
+    static RandomNumber generator;
+
     public static void main(String[] args) {      
         int seed = 0;
         
@@ -50,9 +50,9 @@ public class CitySim9002 {
                 
                 //  Check visitors' preferences.
                 if(visitor.likeLoc(nextVisitor, nextLocation)){
-                        System.out.println("Visitor " + (i + 1) + " did like " + nextLocation + ".");
+                    System.out.println("Visitor " + (i + 1) + " did like " + nextLocation + ".");
                 } else {
-                        System.out.println("Visitor " + (i + 1) + " did not like " + nextLocation + ".");
+                    System.out.println("Visitor " + (i + 1) + " did not like " + nextLocation + ".");
                 }
 
                 nextLocation = location.getLocation(generator.generateNumber());
