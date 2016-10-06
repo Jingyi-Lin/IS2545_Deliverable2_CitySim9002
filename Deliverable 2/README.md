@@ -1,6 +1,6 @@
 # IS2545 - DELIVERABLE 2: Unit Testing
 
-At the beginning of doing this assignment, I met a problem of designing how to divide classes for better presenting the logic. I read the requirement carefully and tried to find out a solution. Later, besides main class, I decided to have classes for generate visitors, generate locations and a random number generator.
+At the beginning of doing this assignment, I met a problem of designing how to divide classes for better presenting the logic. I read the requirement carefully and tried to find out a solution. Later, besides main class, I decided to have classes for generate visitors, generate locations and a random number generator. By such segmentation, I think it will be better to perform the program and also easier for further tests.
 
 For the testing part, I used mocks, doubles and stubs to generate the unit tests for each public method. I generated 14 test cases in total, covering the test of argument, generating visitors and locations, and the whole program performance. They have no errors and all passed.
 
